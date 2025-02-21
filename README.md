@@ -1,3 +1,4 @@
+![image alt](https://github.com/IrenaPaskah/Stuwee/blob/6df82dc70e3943d177be47e4ff63c99699e520f5/roadmap.png)
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
