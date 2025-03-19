@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?= $this->include('/component/head') ?>
+<?= $this->include('Pages/users/component/head') ?>
 
 <body class="contact-page">
 
@@ -14,7 +14,7 @@
         <h1 class="sitename">Company</h1><span>.</span>
       </a>
 
-      <?= $this->include('/component/navbar') ?>
+      <?= $this->include('Pages/users/component/navbar') ?>
 
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
