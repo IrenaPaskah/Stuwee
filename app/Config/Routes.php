@@ -7,9 +7,9 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'User\Home::index', ["as" => "home"]);
 $routes->get('Contact', 'User\Contact::index', ["as" => "contact"]);
-$routes->get('Blog', 'User\Blog::main', ['as' => 'blog']);
-$routes->get('About', 'User\About::index', ['as' => 'blog']);
-$routes->get('Portofolio', 'User\Portofolio::index', ["as" => "portofolio"]);
+$routes->get('Blog', 'User\Blog::index', ['as' => 'blog']);
+$routes->get('blog-details', 'User\Blog::details', ['as' => 'blog-details']);
+$routes->get('About', 'User\About::index', ['as' => 'about']);
 $routes->get('Pricing', 'User\pricing::index', ["as" => "pricing"]);
 $routes->get('Services', 'User\services::index', ["as" => "services"]);
-$routes->get('Services', 'User\service-details::index', ["as" => "service-details"]);
+$routes->get('services-details', 'User\Services::details', ["as" => "service-details"]);

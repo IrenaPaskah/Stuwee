@@ -6,8 +6,13 @@ use App\Controllers\BaseController;
 
 class Blog extends BaseController
 {
-    public function main(): string
+    public function index(): string
     {
         return view('Pages/users/blog');
+    }
+
+    public function details(): string
+    {
+        return view('Pages/users/blog-details');
     }
 }
