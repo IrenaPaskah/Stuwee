@@ -8,6 +8,7 @@ class About extends BaseController
 {
     public function index()
     {
+        $artikelModel = new \App\Models\artikelModel();
         return view('Pages/users/about');
     }
 }
