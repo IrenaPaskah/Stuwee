@@ -13,3 +13,7 @@ $routes->get('About', 'User\About::index', ['as' => 'about']);
 $routes->get('Pricing', 'User\pricing::index', ["as" => "pricing"]);
 $routes->get('Services', 'User\services::index', ["as" => "services"]);
 $routes->get('services-details', 'User\Services::details', ["as" => "service-details"]);
+$routes->group('admin', function ($routes) {
+    $routes->add('login', 'Admin\Admin::login', ['as' => 'admin']);
+    $routes->add('admin/sukses', 'Admin\Admin::sukses', ['as' => 'admin']);
+});

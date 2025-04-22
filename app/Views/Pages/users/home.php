@@ -69,160 +69,98 @@
 
         </section><!-- /Hero Section -->
 
-        <!-- About Section -->
-        <section id="about" class="about section">
-
-            <div class="container">
-
-                <div class="row position-relative">
-
-                    <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpg"></div>
-
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                        <h2 class="inner-title">Selamat datang di Stuwee</h2>
-                        <div class="our-story">
-                            <h4>Sejak 2025</h4>
-                            <h3>Hello!</h3>
-                            <p> Selamat datang di Stuwee, platform blog berbasis komunitas untuk berbagi wawasan, pengalaman, dan inovasi di dunia Teknologi Informasi! 🚀
-
-                                Di sini, siapa saja bisa menulis dan membagikan artikel tentang pemrograman, pengembangan web, keamanan siber, AI, gadget terbaru, dan berbagai topik IT lainnya. Bergabunglah dengan komunitas teknologi, bagikan ilmu, temukan insight baru, dan diskusikan tren terbaru bersama para penggiat IT lainnya.
-
-                                Mulai berbagi pengetahuanmu hari ini dan jadilah bagian dari ekosistem IT yang dinamis dan kolaboratif! 💡✨</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle"></i> <span>Artikel seputar IT</span></li>
-                                <li><i class="bi bi-check-circle"></i> <span>Terhubung dengan komunitas teknologi</span></li>
-                                <li><i class="bi bi-check-circle"></i> <span>Ekosistem kolaboratif</span></li>
-                            </ul>
-                            <p>Selamat belajar</p>
-
-                            <div class="watch-video d-flex align-items-center position-relative">
-                                <i class="bi bi-play-circle"></i>
-                                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section><!-- /About Section -->
-
         <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio section">
+        <section id="Dokumentasi" class="dokumentasi section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Dokumentasi</h2>
-                <p>Ini adalah foto kegiatan tim kami</p>
+                <h2>Their Impression!</h2>
+                <p>Apa kata mereka tentang Stuwee :3</p>
             </div><!-- End Section Title -->
 
             <div class="container">
 
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-Tim">Tim</li>
-                        <li data-filter=".filter-Kegiatan">Kegiatan</li>
-                        <li data-filter=".filter-Sertifikat">Sertifikat</li>
-                    </ul><!-- End Portfolio Filters -->
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Airena Paskah</h4>
+                            <p>SMA Strada Bhakti Wiyata Bekasi</p>
+                            <p>Kalau aku ada tugas mata pelajaran informatika yang bikin pusing banget, aku langsung ke web Stuwee soalnya ini web keren deh, banyak banget informasi mengenai teknologi nya</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Elizabeth Ellyna Napitupulu</h4>
+                            <p>SMA Yos Sudarso Batam</p>
+                            <p>Asli! web Stuwee ini luar biasa keren dan lengkap buat gue yang gaptek kayak nenek nenek ini, buka web ini langsung di tutorin deh apapun mengenai teknologi. LOVE YOU STUWEE</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Kasih Pilia Sinaga</h4>
+                            <p>SMAN 20 Batam</p>
+                            <p>Bigggg applause buat developer Irena yang bisa buat web keren ini. Gue sebagai anak yang suka banget nyari tau tentang teknologi merasa terbantu banget dengan adanya web Stuwee ini. Jaya terus deveolper Irena yang keren abisssss</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Harry Styles</h4>
+                            <p>WAH!! Gua sebagai anak Teknologi Informasi semester 4 di ITB yang top 3 PTN itu ngerasa web ini luar biasa lengkap dan informasi yang di posting mudah dipahami, apalagi coding susah banget, tapi jadi mudah karena developer Irena, I love you Irena</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Justin Bieber</h4>
+                            <p>Gua kalo mumet sama Hailey Bieber istri gua. Gua baca-baca blog di web Stuwee deh, bantu stress relief. soalnya tampilan web nya enak dilihat. bikin nyaman, apalagi gue suka banget baca-baca tentang teknologi di dunia musik</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Baskara</h4>
+                            <p>Selain musik. Gua suka teknologi juga. Stuwee buat pengetahuan dan rasa penasaran gua tentang teknologi jadi nambah berkali lipat</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Suhardi</h4>
+                            <p>Saya bapak 3 anak, kerja di bidang teknologi. kalau atasan ngasih saya kerjaan yang kurang saya pahami. saya buka Stuwee deh. ga cuma buat pelajar tapi berguna buat saya yang sudah bekerja</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Sri Wahyu</h4>
+                            <p>Sebagai independent women yang kerja di perusahaan top teknologi. saya kagum dengan web Stuwee. web ini luar biasa bagus dari segi apapun. approved by me</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>John Siregar</h4>
+                            <p>Asli bos ku ribet banget, tapi sebagai fresh graduate yang udah kejra, web ini bantuin aku banget biar bos itu ga marahin aku, bantu kerjaan ku banget sebagai fresh graduate</p>
+                        </div>
+                    </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                </div><!-- End Portfolio Container -->
 
-                    </div><!-- End Portfolio Container -->
-
-                </div>
+            </div>
 
             </div>
 
@@ -233,8 +171,8 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Clients</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Sponsor</h2>
+                <p>Big Thanks to this amazing company</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -281,96 +219,7 @@
 
     </main>
 
-    <footer id="footer" class="footer dark-background">
-
-        <div class="container footer-top">
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="index.html" class="logo d-flex align-items-center">
-                        <span class="sitename">Company</span>
-                    </a>
-                    <div class="footer-contact pt-3">
-                        <p>A108 Adam Street</p>
-                        <p>New York, NY 535022</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                        <p><strong>Email:</strong> <span>info@example.com</span></p>
-                    </div>
-                    <div class="social-links d-flex mt-4">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-12 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                    <form action="forms/newsletter.php" method="post" class="php-email-form">
-                        <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">Company</strong> <span>All Rights Reserved</span></p>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Preloader -->
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-
+    <?= $this->include('Pages/users/component/footer') ?>
 </body>
 
 </html>
